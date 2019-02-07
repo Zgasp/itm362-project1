@@ -12,5 +12,12 @@ html{
   font-size: 1.175em;
   line-height: 120%;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: lightblue;
+  background-color: darkgrey;
+  color: white;
+}
+
+body{
+  /*
+  background-image: url(images/deepdish.jpeg);
+  */
 }
