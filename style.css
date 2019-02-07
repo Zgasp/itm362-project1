@@ -22,6 +22,12 @@ html{
 h1{
   font-size: 2.25em;
   line-height: 2.5em;
+  text-align: center;
 }
 body{
+}
+@media (width <= 60em){
+  h1{
+    color:red;
+  }
 }
