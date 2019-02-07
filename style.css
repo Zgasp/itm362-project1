@@ -7,3 +7,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+html{
+  font-size: 1.175em;
+  line-height: 120%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: lightblue;
+}
