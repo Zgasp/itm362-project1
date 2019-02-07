@@ -8,24 +8,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+.page{
+  background-color: darkgrey;
+  opacity: 0.4;
+}
+#header{
+  font-size: 2.25em;
+  line-height: 2.5em;
+  text-align: center;
+}
 html{
   font-size: 1.175em;
   line-height: 1.2em;
   padding: 1em;
   font-family: 'Josefin Sans', sans-serif;
   background-color: darkgrey;
-  color: white;
   /*
   background-image: url(images/deepdish.jpeg);
   */
 }
-h1{
-  font-size: 2.25em;
-  line-height: 2.5em;
-  text-align: center;
+
+.content{
+  color: white;
+  font-color: white;
+  opacity: 1;
 }
 body{
 }
+
 @media (width <= 60em){
   h1{
     color:red;
