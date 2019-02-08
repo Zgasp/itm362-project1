@@ -24,7 +24,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   
 }
 
-.content,#footer,#header{
+.content,#footer,#header,#form{
   color: white;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, .3);
