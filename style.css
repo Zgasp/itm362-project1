@@ -61,6 +61,13 @@ body{
   margin: auto;
   }
 }
-.form-block{
+.form-block,.submit{
   margin:auto;
+  width:15em;
+  text-align: center
+}
+.name{
+  padding: .86em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
