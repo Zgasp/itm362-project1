@@ -26,6 +26,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 .content,#footer,#header{
   color: white;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, .2);
+  padding: 0.6em;
+  margin:auto;
+}
+#footer p{
+  font-size: 0.5em;
 }
 body{
 }
@@ -35,7 +42,6 @@ body{
     color:red;
   }
   .page{
-  background-color: #ce9961;
   width: 70%;
   margin: auto;
   }
