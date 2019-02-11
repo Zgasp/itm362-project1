@@ -8,7 +8,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-
 #header{
   font-size: 2.25em;
   line-height: 2.5em;
@@ -19,11 +18,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   line-height: 1.2em;
   padding: 1em;
   font-family: 'Josefin Sans', sans-serif;
-  
   background: center, no-repeat, url(images/deepdish.jpeg);
-  
 }
-
 .content,#footer,#header,#form{
   color: white;
   background: rgb(0, 0, 0);
@@ -62,6 +58,7 @@ body{
   padding-bottom: 0;
   }
 }
+/*-----FORM CSS-----*/
 #form fieldset{
   border: white solid 0.1em;
   width:15em;
@@ -91,7 +88,7 @@ body{
   text-align: center;
 }
 #submit_btn{
-  border:0.1em solid white;
+  border:0.05em solid white;
   padding-top: 0.7em;
   margin:0.5em auto;
   font-size: 1em;
