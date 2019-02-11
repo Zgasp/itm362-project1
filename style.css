@@ -55,6 +55,7 @@ body{
     color:blue;
   }
   */
+}
 #form fieldset{
   border: white solid 1px;
   width:15em;
@@ -65,12 +66,14 @@ body{
 }
 #form label, input, legend{
   display: block;
+  text-align: center;
   padding:0.5em 0.5em 0.5em 0.5em;
   margin:auto;
   color:white;
 }
 #form legend{
   margin:auto;
+  font-size: 1.375em;
 }
 
 #form-box1, #form-box2{
@@ -82,11 +85,12 @@ body{
   text-align: center;
 }
 #submit_btn{
-  border:0;
-  padding:;
+  border:0.1em, white;
+  font-size: 1em;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0);
   color:white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .name{
   padding: .86em;
