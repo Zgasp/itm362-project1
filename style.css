@@ -55,25 +55,39 @@ body{
     color:blue;
   }
   */
-  .page{
-  width: 85%;
-  margin: auto;
-  }
-}
-#form{
+#form fieldset{
   border: white solid 1px;
+  width:15em;
+  margin:auto;
 }
-#form label{
+#form p{
+  margin:auto;
+}
+#form label, input, legend{
   display: block;
+  padding:0.5em 0.5em 0.5em 0.5em;
+  margin:auto;
+  color:white;
+}
+#form legend{
+  margin:auto;
 }
 
-.form-block,{
-  border: white solid 1px;
+#form-box1, #form-box2{
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  border:0;
   margin:auto;
   width:15em;
   text-align: center;
 }
-
+#submit_btn{
+  border:0;
+  padding:;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  color:white;
+}
 .name{
   padding: .86em;
   padding-top: 0;
