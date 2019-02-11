@@ -77,7 +77,7 @@ body{
   font-size: 1.375em;
 }
 
-#form-box1, #form-box2{
+#name, #email{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
   border:0;
@@ -86,8 +86,7 @@ body{
   text-align: center;
 }
 #submit_btn{
-  border:0.1;
-  border-color: rgb(255, 255, 255);
+  border:0.1em solid white;
   padding-top: 0.7em;
   margin:0.5em auto;
   font-size: 1em;
@@ -101,8 +100,7 @@ body{
   text-transform: uppercase;
 }
 #submit_btn:hover{
-  border:0.1;
-  border-color: rgba(0, 0, 0, 0);
+  border:0.1em solid rgba(0, 0, 0, 0);
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
 }
