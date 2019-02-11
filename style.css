@@ -33,6 +33,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 #footer p{
   font-size: 0.5em;
+  text-align: center;
 }
 body{
 }
