@@ -37,7 +37,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 body{
 }
-@media (min-width: 960px){
+@media (min-width: 60em){
   /*
   h1{
     color:red;
@@ -49,7 +49,7 @@ body{
   margin: auto;
   }
 }
-@media (max-width: 960px) and (min-width: 640px){
+@media (max-width: 60em) and (min-width: 40em){
   /*This is code for testing the media query*/
   /*
   h1{
@@ -58,7 +58,7 @@ body{
   */
 }
 #form fieldset{
-  border: white solid 1px;
+  border: white solid 0.1em;
   width:15em;
   margin:auto;
 }
