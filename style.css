@@ -60,11 +60,20 @@ body{
   margin: auto;
   }
 }
+#form{
+  border: white solid 1px;
+}
+#form label{
+  display: block;
+}
+
 .form-block,{
+  border: white solid 1px;
   margin:auto;
   width:15em;
   text-align: center;
 }
+
 .name{
   padding: .86em;
   padding-top: 0;
