@@ -56,6 +56,11 @@ body{
     color:blue;
   }
   */
+  .name{
+  padding: .86em;
+  padding-top: 0;
+  padding-bottom: 0;
+  }
 }
 #form fieldset{
   border: white solid 0.1em;
@@ -80,7 +85,7 @@ body{
 #name, #email{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
-  border:0;
+  border:0.05em solid rgba(255, 255, 255, 0.5);
   margin:auto;
   width:15em;
   text-align: center;
@@ -100,12 +105,7 @@ body{
   text-transform: uppercase;
 }
 #submit_btn:hover{
-  border:0.1em solid rgba(0, 0, 0, 0);
+  border:0.05em solid rgba(255, 255, 255, 0.5);
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
-}
-.name{
-  padding: .86em;
-  padding-top: 0;
-  padding-bottom: 0;
 }
