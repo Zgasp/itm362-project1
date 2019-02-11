@@ -69,6 +69,7 @@ body{
   text-align: center;
   padding:0.5em 0.5em 0.5em 0.5em;
   margin:auto;
+  border-radius: .5em;
   color:white;
 }
 #form legend{
@@ -86,12 +87,13 @@ body{
 #submit_btn{
   border:0.1;
   border-color: rgb(255, 255, 255);
+  padding-top: 0.7em;
+  margin:0.5em auto;
   font-size: 1em;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0);
   color:white;
   font-family: 'Josefin Sans', sans-serif;
-  margin:0.5em auto;
   cursor: pointer;
   transition: .3s background;
   transition: .3s border;
