@@ -36,7 +36,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 body{
 }
-
 @media (min-width: 960px){
   /*
   h1{
@@ -61,10 +60,10 @@ body{
   margin: auto;
   }
 }
-.form-block,.submit{
+.form-block,{
   margin:auto;
   width:15em;
-  text-align: center
+  text-align: center;
 }
 .name{
   padding: .86em;
