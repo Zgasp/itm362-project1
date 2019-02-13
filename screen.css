@@ -67,16 +67,22 @@ body{
 #form p{
   margin:auto;
 }
-#form label, input, legend{
+#form label, input{
   display: block;
   text-align: center;
-  padding:0.5em 0.5em 0.5em 0.5em;
+  padding:0.5em;
   margin:auto;
   border-radius: .5em;
   color:white;
 }
 #form legend{
   font-size: 1.375em;
+  display: block;
+  text-align: center;
+  padding:0.5em 0.5em 0em 0.5em;
+  margin:auto;
+  border-radius: .5em;
+  color:white;
 }
 
 #name, #email{
