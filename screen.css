@@ -97,12 +97,13 @@ body{
   color:white;
   font-family: 'Josefin Sans', sans-serif;
   cursor: pointer;
-  transition: .3s background;
-  transition: .3s border;
   text-transform: uppercase;
 }
 #submit_btn:hover{
   border:0.05em solid rgba(255, 255, 255, 0.5);
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
+
+  transition: .5s border;
+  transition: .5s background;
 }
