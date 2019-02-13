@@ -107,3 +107,12 @@ body{
   transition: .5s border;
   transition: .5s background;
 }
+#form p{
+  visibility: hidden;
+  transition: visibility 1.0s, opacity 0.5s ease;
+  opacity: 0
+}
+#form:hover p{
+  visibility: visible;
+  opacity: 1;
+}
