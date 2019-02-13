@@ -109,7 +109,7 @@ body{
 }
 #form p{
   visibility: hidden;
-  transition: visibility 1.0s, opacity 0.5s ease;
+  transition: visibility 1.0s, opacity 0.5s ease-in-out;
   opacity: 0
 }
 #form:hover p{
