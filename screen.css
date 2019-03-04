@@ -110,9 +110,10 @@ body{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
 
-  transition: .5s border;
-  transition: .5s background;
+  transition: .5s border ease-in-out;
+  transition: .5s background ease-in-out;
 }
+/* Makes form invisible, keeping in case for future.
 #form p{
   visibility: hidden;
   transition: visibility 1.0s, opacity 0.5s ease-in-out;
@@ -122,3 +123,4 @@ body{
   visibility: visible;
   opacity: 1;
 }
+*/
